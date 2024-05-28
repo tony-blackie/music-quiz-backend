@@ -8,11 +8,11 @@ type Song = {
   about: string;
 };
 
-type SongNames = {
+type Songs = {
   [questionIndex: number]: Song[];
 };
 
-export const songs: SongNames = {
+export const songs: Songs = {
   1: [
     {
       id: "1",
