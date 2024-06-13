@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
-import { songs } from "./data.js";
+import { songs } from "./data";
 
 dotenv.config();
 
